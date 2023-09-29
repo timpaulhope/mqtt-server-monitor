@@ -22,9 +22,9 @@ pip install paho-mqtt pyyaml psutil
 
 ## Configuration
 
-1. Clone this repository to your local machine or download the script and configuration file (`mqqt_config.yaml`) to your project directory.
+1. Clone this repository to your local machine or download the script and configuration file (`mqtt_config.yaml`) to your project directory.
 
-2. Edit the `mqqt_config.yaml` file to configure your MQTT broker and topic settings:
+2. Edit the `mqtt_config.yaml` file to configure your MQTT broker and topic settings:
 
    - `broker_address`: The address of your MQTT broker.
    - `port`: The MQTT broker port.
@@ -33,7 +33,7 @@ pip install paho-mqtt pyyaml psutil
    - `wait_seconds`: The interval (in seconds) between data publications.
    - `run_verbose`: Set to `true` if you want to print data to the console as it is published.
    
-   Example `mqqt_config.yaml` file:
+   Example `mqtt_config.yaml` file:
 
    ```yaml
    mqtt:

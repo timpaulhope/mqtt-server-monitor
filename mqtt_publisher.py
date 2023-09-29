@@ -81,7 +81,7 @@ if __name__ == "__main__":
     script_dir = os.path.dirname(__file__)
 
     # Define the relative path to the YAML configuration file
-    config_file_path = os.path.join(script_dir, "mqqt_config.yaml")
+    config_file_path = os.path.join(script_dir, "mqtt_config.yaml")
     
     # Call the function to start publishing data
     publish_system_data(config_file_path)
